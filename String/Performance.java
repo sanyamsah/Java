@@ -6,6 +6,5 @@ public class Performance {
             series += ch; // String + character
             System.out.println(series);
         }
-
     }
 }
