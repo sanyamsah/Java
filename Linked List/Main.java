@@ -46,5 +46,25 @@ public class Main {
         dList.print();
         dList.insertAtIndex(4,99);
         dList.print();
+        int index = dList.search(6);
+        System.out.println("Element found at index: " + index);
+        int val = dList.deleteAtFirst();
+        System.out.println("Deleted element: " + val);
+        dList.print();
+        val = dList.deleteAtLast();
+        System.out.println("Deleted element: " + val);
+        dList.print();
+        val = dList.deleteAtIndex(3);
+        System.out.println("Deleted element: " + val);
+        dList.print();
+
+        System.out.println("------------------------CIRCULAR LINKED LIST------------------------");
+        CircularLinkedList cList = new CircularLinkedList();
+        cList.insertAtFirst(5);
+        cList.insertAtFirst(4);
+        cList.insertAtFirst(3);
+        cList.insertAtFirst(2);
+        cList.insertAtFirst(1);
+        cList.print();
     }
 }

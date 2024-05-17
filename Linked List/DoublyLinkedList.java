@@ -56,6 +56,47 @@ public class DoublyLinkedList {
         size++;
     }
 
+    public int search(int val){
+        Node node = head;
+        int index = 0;
+        while(node != null){
+            if(node.value == val){
+                return index;
+            }
+            index++;
+            node = node.next;
+        }
+        return -1;
+    }
+
+    public int deleteAtFirst(){
+        int val = head.value;
+        head = head.next;
+        head.prev = null;
+        if(head==null) tail = null;
+        size--;
+        return val;
+    }
+
+    public int deleteAtLast(){
+        int val = tail.value;
+        tail = tail.prev;
+        tail.next = null;
+        size--;
+        return val;
+    }
+
+    public int deleteAtIndex(int idx){
+        if (idx == 0) return deleteAtFirst();
+        if(idx == size-1) return deleteAtLast();
+        Node node = getAtIndex(idx - 1);
+        int val = node.next.value;
+        node.next = node.next.next;
+        node.next.prev = node;
+        size--;
+        return val;
+    }
+
     public void print(){
         Node temp = head;
         while(temp != null){
