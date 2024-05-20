@@ -63,6 +63,22 @@ public class SinglyLinkedList {
         size++;
     }
 
+    public void insertRecursive(int idx, int val){
+        head = insertRecursive(idx, val, head);
+    }
+
+    private Node insertRecursive(int idx, int val, Node node){
+        if(idx == 0){
+            Node temp = new Node();
+            temp.value = val;
+            temp.next = node;
+            size++;
+            return temp;
+        }
+        node.next = insertRecursive(--idx, val, node.next);
+        return node;
+    }
+
     // Deletes element of first index
     public int deleteAtFirst(){
         int val = head.value;

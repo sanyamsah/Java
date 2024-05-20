@@ -3,6 +3,15 @@ public class CircularLinkedList {
     Node head;
     Node tail;
 
+    public Node getAtIndex(int idx){
+        Node node = head;
+        for(int i=0; i<idx; i++){
+            node = node.next;
+        }
+        return node;
+    }
+
+
     public void insertAtFirst(int val){
         Node node = new Node(val);
         node.next = head;
@@ -21,6 +30,22 @@ public class CircularLinkedList {
         tail.next = node;
         tail = node;
         tail.next = head;
+        size++;
+    }
+
+    public void insertAtIndex(int idx, int val){
+        if(idx == 0){
+            insertAtFirst(val);
+            return;
+        }
+        if(idx == size-1){
+            insertAtLast(val);
+            return;
+        }
+        Node node = new Node(val);
+        Node temp = getAtIndex(idx-1);
+        node.next = temp.next;
+        temp.next = node;
         size++;
     }
 

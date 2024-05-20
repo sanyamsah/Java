@@ -9,7 +9,7 @@ public class Main {
         list.insertAtLast(5);
         list.insertAtFirst(0);
         list.print();
-        list.insertAtIndex(4,6);
+        list.insertRecursive(6,99);
         list.print();
         System.out.println("Deleted: " + list.deleteAtFirst());
         list.print();
@@ -65,6 +65,8 @@ public class Main {
         cList.insertAtFirst(3);
         cList.insertAtFirst(2);
         cList.insertAtFirst(1);
+        cList.print();
+        cList.insertAtIndex(6,99);
         cList.print();
     }
 }
