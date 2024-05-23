@@ -4,9 +4,10 @@ import java.util.Scanner;
 public class BinarySearch {
     private static int binarySearch(int[] arr, int key, int low, int high){
         if(key < arr[low] || key > arr[high]) return -1;
-        int mid = (low + high)/2;
+//        if(low > high) return -1;
+        int mid = low + (high - low)/2;
         if(arr[mid] == key) return mid;
-        else if(key < arr[mid]) return binarySearch(arr,key,0,mid);
+        else if(key < arr[mid]) return binarySearch(arr,key,0,mid - 1);
         else if(key > arr[mid]) return binarySearch(arr,key,mid + 1,high);
         else return -1;
     }
