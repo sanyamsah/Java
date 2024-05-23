@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ab90600-cc7b-467b-8e55-81cc376cc987" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Palindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReverseNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SumOfDigits.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Recursion/BinarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Recursion/BinarySearch.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,15 +38,19 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.BinarySearch.executor": "Run",
+    "Application.Factorial.executor": "Run",
     "Application.Fibonacci.executor": "Run",
     "Application.FibonacciDP.executor": "Run",
     "Application.NumberExample.executor": "Debug",
+    "Application.Palindrome.executor": "Run",
+    "Application.ReverseNumber.executor": "Run",
+    "Application.SumOfDigits.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.BinarySearch">
+  <component name="RunManager" selected="Application.Palindrome">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BinarySearch" />
       <module name="Recursion" />
@@ -52,22 +58,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Fibonacci" />
+    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Factorial" />
       <module name="Recursion" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FibonacciDP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FibonacciDP" />
+    <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Palindrome" />
       <module name="Recursion" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NumberExample" />
+    <configuration name="ReverseNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReverseNumber" />
+      <module name="Recursion" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SumOfDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SumOfDigits" />
       <module name="Recursion" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -75,10 +88,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Palindrome" />
+        <item itemvalue="Application.Factorial" />
+        <item itemvalue="Application.ReverseNumber" />
+        <item itemvalue="Application.SumOfDigits" />
         <item itemvalue="Application.BinarySearch" />
-        <item itemvalue="Application.FibonacciDP" />
-        <item itemvalue="Application.Fibonacci" />
-        <item itemvalue="Application.NumberExample" />
       </list>
     </recent_temporary>
   </component>
