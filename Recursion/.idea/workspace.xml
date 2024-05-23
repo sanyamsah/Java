@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ab90600-cc7b-467b-8e55-81cc376cc987" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/NumberExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Recursion.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Recursion.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FibonacciDP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Recursion/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Recursion/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,10 +26,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2goWR3Lb7UzwQeu6q4E5ISJH397" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -35,13 +37,29 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Fibonacci.executor": "Run",
+    "Application.FibonacciDP.executor": "Run",
     "Application.NumberExample.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.FibonacciDP">
+    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Fibonacci" />
+      <module name="Recursion" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FibonacciDP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FibonacciDP" />
+      <module name="Recursion" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NumberExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="NumberExample" />
       <module name="Recursion" />
@@ -51,6 +69,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FibonacciDP" />
+        <item itemvalue="Application.Fibonacci" />
         <item itemvalue="Application.NumberExample" />
       </list>
     </recent_temporary>
@@ -65,5 +85,8 @@
       <updated>1716364401665</updated>
     </task>
     <servers />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Recursion$NumberExample.ic" NAME="NumberExample Coverage Results" MODIFIED="1716365618602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
   </component>
 </project>
