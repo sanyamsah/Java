@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ab90600-cc7b-467b-8e55-81cc376cc987" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FibonacciDP.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Recursion/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Recursion/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Recursion/BinarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Recursion/BinarySearch.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +35,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.BinarySearch.executor": "Run",
     "Application.Fibonacci.executor": "Run",
     "Application.FibonacciDP.executor": "Run",
     "Application.NumberExample.executor": "Debug",
@@ -45,7 +44,14 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.FibonacciDP">
+  <component name="RunManager" selected="Application.BinarySearch">
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinarySearch" />
+      <module name="Recursion" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Fibonacci" />
       <module name="Recursion" />
@@ -69,6 +75,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.FibonacciDP" />
         <item itemvalue="Application.Fibonacci" />
         <item itemvalue="Application.NumberExample" />
