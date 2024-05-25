@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ab90600-cc7b-467b-8e55-81cc376cc987" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Sorted.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/Java.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Recursion/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Recursion/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sorted.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sorted.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +43,7 @@
     "Application.NumberExample.executor": "Debug",
     "Application.Palindrome.executor": "Run",
     "Application.ReverseNumber.executor": "Run",
+    "Application.Sorted.executor": "Run",
     "Application.SumOfDigits.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
