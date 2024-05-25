@@ -10,10 +10,20 @@ public class LinearSearchMultiple {
             if(arr[i]==key) list.add(i);
             search(arr,key,++i);
         }
+        // Passing list as argument
         private static ArrayList<Integer> search(int[] arr, int key, int i, ArrayList<Integer> l){
             if(i==arr.length) return l;
             if(arr[i]==key) l.add(i);
             return search(arr,key,++i,l);
+        }
+        // Without passing list as argument
+        private static ArrayList<Integer> search2(int[] arr, int key, int i){
+            ArrayList<Integer> list = new ArrayList<>();
+            if(i==arr.length) return list;
+            if(arr[i]==key) list.add(i);
+            ArrayList<Integer> ansFromBelowCalls = search2(arr,key,++i);
+            list.addAll(ansFromBelowCalls);
+            return list;
         }
         public static void main(String[] args) {
             Scanner input = new Scanner(System.in);
@@ -28,5 +38,10 @@ public class LinearSearchMultiple {
             System.out.println(l);
             if(l.isEmpty()) System.out.println("Element not found..");
             else System.out.println("Element found at index: " + l);
+            ArrayList<Integer> list = search2(arr,key,0);
+            System.out.println(list);
+            if(list.isEmpty()) System.out.println("Element not found..");
+            else System.out.println("Element found at index: " + list);
+
         }
 }
