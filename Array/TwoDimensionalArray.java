@@ -23,8 +23,7 @@ public class TwoDimensionalArray {
         System.out.println();
         for (int[] row : mat3) {
             // Enhanced loop for iterating over elements in each row
-            for (int element : ro
-            w) {
+            for (int element : row) {
                 System.out.print(element + " ");
             }
             System.out.println();
