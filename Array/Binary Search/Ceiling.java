@@ -20,10 +20,7 @@ public class Ceiling {
         System.out.print("Enter key: ");
         int key = input.nextInt();
         int index = ceiling(arr,key);
-        if(index==-1) System.out.println("Element not found..");
-        else {
-            System.out.println("Element found at index: " + index);
-            System.out.println("Element closest to " + key + " = " + arr[index]);
-        }
+        System.out.println("Element found at index: " + index);
+        System.out.println("Element closest to " + key + " = " + arr[index]);
     }
 }
