@@ -4,6 +4,7 @@ import java.util.Scanner;
 // Smallest element in the array that is greater or equal to the target element.
 public class Ceiling {
     private static int ceiling(int[] arr, int key){
+        if(key > arr[arr.length-1]) return -1;
         int start = 0, end = arr.length - 1;
         while(start <= end){
             int mid = start + (end - start) / 2;
@@ -20,7 +21,10 @@ public class Ceiling {
         System.out.print("Enter key: ");
         int key = input.nextInt();
         int index = ceiling(arr,key);
-        System.out.println("Element found at index: " + index);
-        System.out.println("Element closest to " + key + " = " + arr[index]);
+        if(index==-1) System.out.println("Element not found..");
+        else {
+            System.out.println("Element found at index: " + index);
+            System.out.println("Element closest to " + key + " = " + arr[index]);
+        }
     }
 }

@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class Floor {
    // Greatest element in the array that is smaller than or equal to the target element.
         private static int floor(int[] arr, int key){
+            if(key < arr[0]) return -1;
             int start = 0, end = arr.length - 1;
             while(start <= end){
                 int mid = start + (end - start) / 2;
@@ -20,7 +21,10 @@ public class Floor {
             System.out.print("Enter key: ");
             int key = input.nextInt();
             int index = floor(arr,key);
-            System.out.println("Element found at index: " + index);
-            System.out.println("Element closest to " + key + " = " + arr[index]);
+            if(index==-1) System.out.println("Element not found..");
+            else {
+                System.out.println("Element found at index: " + index);
+                System.out.println("Element closest to " + key + " = " + arr[index]);
+            }
         }
     }
