@@ -63,19 +63,17 @@ public class SinglyLinkedList {
         size++;
     }
 
-    public void insertRecursive(int idx, int val){
-        head = insertRecursive(idx, val, head);
+    public void recursiveInsert(int index, int val){
+        head = recursiveInsert(val, index, head);
     }
 
-    private Node insertRecursive(int idx, int val, Node node){
-        if(idx == 0){
-            Node temp = new Node();
-            temp.value = val;
-            temp.next = node;
+    private Node recursiveInsert(int val, int index, Node node){
+        if(index == 0){
+            Node temp = new Node(val, node);
             size++;
             return temp;
         }
-        node.next = insertRecursive(--idx, val, node.next);
+        node.next = recursiveInsert(val, index - 1, node.next);
         return node;
     }
 
