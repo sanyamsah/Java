@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Fibonacci {
-    private static int fibo(int n) {
+    private static int fibo(int n) { // exponential time complexity O(2^n)
         if(n <= 1) return n;
         else{
             return fibo(n-1) + fibo(n-2);

@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
-public class FibonacciDP {
+public class FibonacciDP { // Linear time complexity: O(n)
     private static long fibo(int n, long[] memo){
-        if(n<=1) return n;
+        if(n <= 1) return n;
         if(memo[n] != -1) return memo[n];
         memo[n] = fibo(n-1, memo) + fibo(n-2, memo);
         return memo[n];
