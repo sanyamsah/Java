@@ -22,7 +22,7 @@ public class Palindrome {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter a multi-digit number: ");
-        long num = input.nextInt();
+        long num = input.nextLong();
         if(isPalindrome(num)) System.out.println("Palindrome");
         else System.out.println("Not Palindrome");
     }
