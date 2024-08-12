@@ -6,21 +6,21 @@ import java.util.Scanner;
 public class LinearSearchMultiple {
     static ArrayList<Integer> list = new ArrayList<>();
         private static void search(int[] arr, int key, int i){
-            if(i==arr.length) return;
-            if(arr[i]==key) list.add(i);
-            search(arr,key,++i);
+            if(i == arr.length) return;
+            if(arr[i] == key) list.add(i);
+            search(arr, key, ++i);
         }
         // Passing list as argument
         private static ArrayList<Integer> search(int[] arr, int key, int i, ArrayList<Integer> l){
-            if(i==arr.length) return l;
-            if(arr[i]==key) l.add(i);
-            return search(arr,key,++i,l);
+            if(i == arr.length) return l;
+            if(arr[i] == key) l.add(i);
+            return search(arr, key, ++i, l);
         }
         // Without passing list as argument
         private static ArrayList<Integer> search2(int[] arr, int key, int i){
             ArrayList<Integer> list = new ArrayList<>();
-            if(i==arr.length) return list;
-            if(arr[i]==key) list.add(i);
+            if(i == arr.length) return list;
+            if(arr[i] == key) list.add(i);
 //            ArrayList<Integer> ansFromBelowCalls = search2(arr,key,++i);
 //            list.addAll(ansFromBelowCalls);
             list.addAll(search2(arr,key,++i));

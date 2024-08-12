@@ -35,7 +35,10 @@
       <change beforePath="$PROJECT_DIR$/../OOP/out/production/OOP/ReferenceExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP/out/production/OOP/ReferenceExample.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../OOP/out/production/OOP/WrapperExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP/out/production/OOP/WrapperExample.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/Palindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinearSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinearSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinearSearchMultiple.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinearSearchMultiple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RotatedBinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/RotatedBinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sorted.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sorted.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Recursion/Palindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Recursion/Palindrome.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../String/StringBuilderClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../String/StringBuilderClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Test.java" afterDir="false" />
@@ -70,29 +73,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.ArraySortedOrNot.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BinarySearch.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Factorial.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Fibonacci.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FibonacciDP.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LinearSearch.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LinearSearchMultiple.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LinearSearchMultipleOccurances.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NumberExample.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Palindrome.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReverseNumber.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RotatedBinarySearch.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Sorted.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SumOfDigits.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ArraySortedOrNot.executor": "Run",
+    "Application.BinarySearch.executor": "Run",
+    "Application.CountZeros.executor": "Run",
+    "Application.Factorial.executor": "Run",
+    "Application.Fibonacci.executor": "Run",
+    "Application.FibonacciDP.executor": "Run",
+    "Application.LinearSearch.executor": "Run",
+    "Application.LinearSearchMultiple.executor": "Run",
+    "Application.LinearSearchMultipleOccurances.executor": "Run",
+    "Application.NumberExample.executor": "Debug",
+    "Application.Palindrome.executor": "Run",
+    "Application.ReverseNumber.executor": "Run",
+    "Application.RotatedBinarySearch.executor": "Run",
+    "Application.Sorted.executor": "Run",
+    "Application.SumOfDigits.executor": "Run",
+    "Application.Test.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.Palindrome">
+}]]></component>
+  <component name="RunManager" selected="Application.RotatedBinarySearch">
+    <configuration name="CountZeros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CountZeros" />
+      <module name="Recursion" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Fibonacci" />
       <module name="Recursion" />
@@ -102,13 +113,6 @@
     </configuration>
     <configuration name="FibonacciDP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FibonacciDP" />
-      <module name="Recursion" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LinearSearchMultiple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinearSearchMultiple" />
       <module name="Recursion" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -130,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RotatedBinarySearch" />
+        <item itemvalue="Application.CountZeros" />
         <item itemvalue="Application.Palindrome" />
         <item itemvalue="Application.FibonacciDP" />
         <item itemvalue="Application.Fibonacci" />
-        <item itemvalue="Application.RotatedBinarySearch" />
-        <item itemvalue="Application.LinearSearchMultiple" />
       </list>
     </recent_temporary>
   </component>

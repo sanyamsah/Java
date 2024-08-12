@@ -3,21 +3,21 @@ import java.util.Scanner;
 
 public class RotatedBinarySearch {
     private static int search(int[] arr, int key, int start, int end){
-        if(start>end) return -1;
+        if(start > end) return -1;
         int mid = start + (end - start) / 2;
         if(arr[mid] == key) return mid;
         if(arr[start] <= arr[mid]){
-            if(key>=arr[start] && key<=arr[mid]){
+            if(key >= arr[start] && key <= arr[mid]){
                 return search(arr,key,start,mid);
             }
             else return search(arr,key,mid+1,end);
         }
-        if(key >= mid && key <=end) return search(arr,key,mid,end);
+        if(key >= arr[mid] && key <= arr[end]) return search(arr,key,mid,end);
         return search(arr,key,start,mid);
     }
     public static void main(String[] args) {
         Scanner input  = new Scanner(System.in);
-        int[] arr = {5,6,7,8,9,0,1,2,3,4};
+        int[] arr = {5,7,19,43,50,67,1,2,3,4};
         System.out.println("Given array: " + Arrays.toString(arr));
         System.out.print("Enter key: ");
         int key = input.nextInt();
