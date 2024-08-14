@@ -15,5 +15,6 @@ public class ReferenceExample {
         System.out.println(one.cgpa);
         System.out.println(two.roll); // 25
         System.out.println(two.cgpa); // 9.0
+
     }
 }

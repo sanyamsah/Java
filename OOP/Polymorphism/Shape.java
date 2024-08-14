@@ -2,6 +2,12 @@ public class Shape {
     void area(){
         System.out.println("Shape area.");
     }
+    final void display(){ // Early binding
+        System.out.println("Shape.");
+    }
+    static void greeting(){
+        System.out.println("Greetings from Shape.");
+    }
 }
 class Circle extends Shape{
     void area(){
@@ -19,6 +25,9 @@ class Square extends Shape{
     void area(){
         System.out.println("Square area.");
     }
+    static void greeting(){
+        System.out.println("Greetings from Square.");
+    }
 }
 
 class Main{
@@ -33,6 +42,13 @@ class Main{
 //        triangle.area();
         Shape circle = new Circle();
         circle.area(); // Shape should have a method area()
-    }
 
+        Shape square = new Square();
+        square.greeting(); // Greetings from Shape.
+        square.area(); // Square area
+        Square.greeting(); // Greetings from square
+
+        Shape triangle = new Triangle();
+        triangle.greeting(); // inherited
+    }
 }

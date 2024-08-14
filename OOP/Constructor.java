@@ -66,5 +66,10 @@ public class Constructor{
         System.out.println(pqr.name); // null
         System.out.println(pqr.roll); // 0
         System.out.println(pqr.cgpa); // 0.0
+
+        Students one = new Students("one", 10, 9);
+        Students two = one;
+        two.name = "changed to two";
+        one.greeting(); // changed to two
     }
 }

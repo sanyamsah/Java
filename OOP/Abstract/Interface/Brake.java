@@ -1,2 +1,5 @@
-package Interface;public class Brake {
+package Interface;
+
+public interface Brake {
+    void brake();
 }
