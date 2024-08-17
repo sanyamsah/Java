@@ -12,7 +12,7 @@ public class LongestCommonSubsequence {
         }
     }
 
-    // Memorization-based solution
+    // Memorization-based solution: Theta(mn)
     private static int lcs(String a, String b, int m, int n, int[][] memo){
         if(memo[m][n] != -1) return memo[m][n];
         if(m == 0 || n == 0) memo[m][n] = 0;
