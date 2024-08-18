@@ -1,51 +1,49 @@
 import java.util.ArrayList;
-import java.util.Scanner;
+import java.util.Arrays;
+import java.util.List;
 
+// Time complexity: O(n * 2^n)
+// Space complexity: O(n * 2^n)
 public class Subset {
-    private static ArrayList<String> subsets(String p, String up){
-        if(up.isEmpty()){
-            ArrayList<String> list = new ArrayList<>();
-            list.add(p);
-            return list;
+//    private static List<List<Integer>> subset(int[] arr){
+//        List<List<Integer>> outer = new ArrayList<>();
+//        outer.add(new ArrayList<>());
+//        for(int element : arr){
+//            int n = outer.size();
+//            for(int i = 0; i < n; i ++){
+//                List<Integer> inner = new ArrayList<>(outer.get(i));
+//                inner.add(element);
+//                outer.add(inner);
+//            }
+//        }
+//        return outer;
+//    }
+    private static List<List<Integer>> subset(int[] arr){
+        Arrays.sort(arr);
+        List<List<Integer>> outer = new ArrayList<>();
+        outer.add(new ArrayList<>());
+        int start = 0, end = 0;
+        for(int i = 0; i < arr.length; i++){
+            start = 0;
+            if(i > 0 && arr[i] == arr[i-1]){
+                start = end + 1;
+            }
+            end = outer.size() - 1;
+            int n = outer.size();
+            for(int j = start; j < n; j++){
+                List<Integer> inner = new ArrayList<>(outer.get(j));
+                inner.add(arr[i]);
+                outer.add(inner);
+            }
         }
-        char ch = up.charAt(0);
-        ArrayList<String> take = subsets(p + ch, up.substring(1));
-        ArrayList<String> ignore = subsets(p, up.substring(1));
-        take.addAll(ignore);
-        return take;
-    }
-    private static void subsets(String str){
-        System.out.println(subsets("",str));
+        return outer;
     }
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        System.out.print("Enter string: ");
-        String str = input.next();
-        subsets(str);
+        int[] arr = {1,2,2,3};
+        List<List<Integer>> list = subset(arr);
+        System.out.println(list);
+//        for(List<Integer> l : list){
+//            System.out.println(l);
+//        }
     }
-
-//    private static void subsets(String p, String up){
-//        if(up.isEmpty()){
-//            System.out.print(p + " ");
-//            return;
-//        }
-//        char ch = up.charAt(0);
-//        subsets(p + ch, up.substring(1));
-//        subsets(p, up.substring(1));
-//    }
-//    private static void subsets(String p, String up, ArrayList<String> list){
-//        if(up.isEmpty()){
-//            list.add(p);
-//            return;
-//        }
-//        char ch = up.charAt(0);
-//        subsets(p + ch, up.substring(1), list);
-//        subsets(p, up.substring(1), list);
-//    }
-//    private static ArrayList<String> subsets(String str){
-//        ArrayList<String> list = new ArrayList<>();
-//        String sub = "";
-//        subsets(sub, str, list);
-//        return list;
-//    }
 }
