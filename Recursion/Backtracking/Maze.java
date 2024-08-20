@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Scanner;
 
 // Number of ways to go to last cell of rows x cols matrix
@@ -8,13 +9,18 @@ public class Maze {
         int rows = input.nextInt();
         System.out.print("Enter columns: ");
         int cols = input.nextInt();
+        String path = "";
         System.out.println("No. of ways: " + maze(rows, cols));
+//        path(rows, cols, "");
+        System.out.println(pathList(rows, cols, ""));
     }
 //    private static int maze(int r, int c){
-//        if(r == 1 || c == 1) return 1;
-//        int left = maze(r-1, c);
+//        if(r == 1 || c == 1) {
+//            return 1;
+//        }
+//        int down = maze(r-1, c);
 //        int right = maze(r, c-1);
-//        return left + right;
+//        return down + right;
 //    }
     private static int maze(int r, int c){
         int[][] dp = new int[r][c];
@@ -30,5 +36,33 @@ public class Maze {
             }
         }
         return dp[r-1][c-1];
+    }
+    private static void path(int r, int c, String path){
+        if(r == 1 && c == 1){
+            System.out.println(path);
+        }
+        if(r > 1){
+            path(r-1, c, path + "D");
+        }
+        if(c > 1){
+            path(r, c-1, path + "R");
+        }
+    }
+    private static ArrayList<String> pathList(int r, int c, String path){
+        if(r == 1 && c == 1){
+            ArrayList<String> list = new ArrayList<>();
+            list.add(path);
+            return list;
+        }
+        ArrayList<String> down = new ArrayList<>();
+        if(r > 1){
+            down = pathList(r-1, c, path + "D");
+        }
+        ArrayList<String> right = new ArrayList<>();
+        if(c > 1){
+            right = pathList(r, c-1, path + "R");
+        }
+        down.addAll(right);
+        return down;
     }
 }
