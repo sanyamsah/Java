@@ -13,6 +13,7 @@ public class Maze {
         System.out.println("No. of ways: " + maze(rows, cols));
 //        path(rows, cols, "");
         System.out.println(pathList(rows, cols, ""));
+        System.out.println(pathListDia(rows, cols, ""));
     }
 //    private static int maze(int r, int c){
 //        if(r == 1 || c == 1) {
@@ -63,6 +64,28 @@ public class Maze {
             right = pathList(r, c-1, path + "R");
         }
         down.addAll(right);
+        return down;
+    }
+    private static ArrayList<String> pathListDia(int r, int c, String path){
+        if(r == 1 && c == 1){
+            ArrayList<String> list = new ArrayList<>();
+            list.add(path);
+            return list;
+        }
+        ArrayList<String> down = new ArrayList<>();
+        if(r > 1){
+            down = pathListDia(r-1, c, path + "D");
+        }
+        ArrayList<String> right = new ArrayList<>();
+        if(c > 1){
+            right = pathListDia(r, c-1, path + "R");
+        }
+        ArrayList<String> dia = new ArrayList<>();
+        if(r > 1 && c > 1){
+            dia = pathListDia(r-1, c-1, path + "[dia]");
+        }
+        down.addAll(right);
+        down.addAll(dia);
         return down;
     }
 }
