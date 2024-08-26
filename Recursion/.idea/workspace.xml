@@ -5,43 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ab90600-cc7b-467b-8e55-81cc376cc987" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/Java.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dynamic Programming/FibonacciSeries.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Dynamic Programming/FibonacciSeries.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dynamic Programming/LongestCommonSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Dynamic Programming/LongestCommonSubsequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOP/Abstract/Interface/Brake.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP/Abstract/Interface/Brake.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOP/Abstract/Interface/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP/Abstract/Interface/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOP/Abstract/Interface/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP/Abstract/Interface/Engine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOP/Abstract/Interface/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP/Abstract/Interface/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOP/Abstract/Interface/Media.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP/Abstract/Interface/Media.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOP/Abstract/Parent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP/Abstract/Parent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOP/Access Control/AccessControl/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP/Access Control/AccessControl/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOP/Access Control/AccessControl/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP/Access Control/AccessControl/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOP/Constructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP/Constructor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOP/Inheritance/Box.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP/Inheritance/Box.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOP/Polymorphism/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP/Polymorphism/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOP/Polymorphism/out/production/Polymorphism/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP/Polymorphism/out/production/Polymorphism/Circle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOP/Polymorphism/out/production/Polymorphism/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP/Polymorphism/out/production/Polymorphism/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOP/Polymorphism/out/production/Polymorphism/ObjectPrint.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP/Polymorphism/out/production/Polymorphism/ObjectPrint.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOP/Polymorphism/out/production/Polymorphism/Shape.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP/Polymorphism/out/production/Polymorphism/Shape.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOP/Polymorphism/out/production/Polymorphism/Square.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP/Polymorphism/out/production/Polymorphism/Square.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOP/Polymorphism/out/production/Polymorphism/Triangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP/Polymorphism/out/production/Polymorphism/Triangle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOP/ReferenceExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP/ReferenceExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOP/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP/Singleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOP/StaticExample/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP/StaticExample/Human.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOP/StaticExample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP/StaticExample/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOP/StaticExample/StaticBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP/StaticExample/StaticBlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOP/out/production/OOP/Constructor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP/out/production/OOP/Constructor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOP/out/production/OOP/ReferenceExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP/out/production/OOP/ReferenceExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOP/out/production/OOP/WrapperExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP/out/production/OOP/WrapperExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../String/StringBuilderClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../String/StringBuilderClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/Java/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/Java/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/Java/ArrayList/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/Java/ArrayList/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/Java/Linked List/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/Java/Linked List/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/Java/Linked List/out/production/Linked List/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/Java/Linked List/out/production/Linked List/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/Java/Recursion/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/Java/Recursion/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/Java/Recursion/out/production/Recursion/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/Java/Recursion/out/production/Recursion/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WildCardMatching.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Linked List/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Linked List/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subset.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,21 +52,15 @@
     "Application.Sorted.executor": "Run",
     "Application.SumOfDigits.executor": "Run",
     "Application.Test.executor": "Run",
+    "Application.WildCardMatching.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.RotatedBinarySearch">
+  <component name="RunManager" selected="Application.WildCardMatching">
     <configuration name="CountZeros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CountZeros" />
-      <module name="Recursion" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Fibonacci" />
       <module name="Recursion" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -126,13 +87,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WildCardMatching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WildCardMatching" />
+      <module name="Recursion" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WildCardMatching" />
         <item itemvalue="Application.RotatedBinarySearch" />
         <item itemvalue="Application.CountZeros" />
         <item itemvalue="Application.Palindrome" />
         <item itemvalue="Application.FibonacciDP" />
-        <item itemvalue="Application.Fibonacci" />
       </list>
     </recent_temporary>
   </component>
