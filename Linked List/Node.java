@@ -1,5 +1,6 @@
-public class Test {
-    public class Node{
+import java.util.Scanner;
+
+public class Node{
         int data;
         int size;
         Node next;
@@ -23,12 +24,29 @@ public class Test {
             temp.next = ptr;
             size++;
         }
-        public void display(Node node){
-            while(node.next != null){
+        public void display(){
+            Node node = this;
+            while(node != null){
                 System.out.println(node.data);
+                node = node.next;
             }
         }
 
+        public static void main(String[] args) {
+            Node head = new Node();
+//            head.insert(1);
+//            head.insert(2);
+//            head.insert(3);
+//            head.insert(4);
+//            head.insert(5);
+//            head.display();
+//            System.out.println(head.size);
+            Scanner input = new Scanner(System.in);
+            int n = input.nextInt();
+            for(int i = 0; i < n; i++){
+                head.insert(input.nextInt());
+            }
+            head.display();
+            System.out.println("Size: " + head.size);
+        }
     }
-    
-}
